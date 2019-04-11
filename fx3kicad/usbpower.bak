@@ -1,0 +1,627 @@
+EESchema Schematic File Version 4
+LIBS:fx3kicad-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:NCP1117DT33RKG IC?
+U 1 1 5CB3B924
+P 8850 1900
+F 0 "IC?" H 9700 2165 50  0000 C CNN
+F 1 "NCP1117DT33RKG" H 9700 2074 50  0000 C CNN
+F 2 "TO229P990X238-4N" H 10400 2000 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/NCP1117DT33RKG.pdf" H 10400 1900 50  0001 L CNN
+F 4 "ON SEMICONDUCTOR - NCP1117DT33RKG - IC, LINEAR VOLTAGE REGULATOR" H 10400 1800 50  0001 L CNN "Description"
+F 5 "2.38" H 10400 1700 50  0001 L CNN "Height"
+F 6 "863-NCP1117DT33RKG" H 10400 1600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NCP1117DT33RKG" H 10400 1500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 10400 1400 50  0001 L CNN "Manufacturer_Name"
+F 9 "NCP1117DT33RKG" H 10400 1300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8850 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CB3B92B
+P 8850 1900
+F 0 "#PWR?" H 8850 1650 50  0001 C CNN
+F 1 "GND" V 8855 1772 50  0000 R CNN
+F 2 "" H 8850 1900 60  0000 C CNN
+F 3 "" H 8850 1900 60  0000 C CNN
+	1    8850 1900
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8850 2000 8850 2200
+Wire Wire Line
+	7050 2200 7050 2000
+Wire Wire Line
+	7050 2000 7150 2000
+Text GLabel 6850 1900 0    50   Input ~ 0
+USB3_VBUS
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CB3B936
+P 6900 2500
+F 0 "#PWR?" H 6900 2250 50  0001 C CNN
+F 1 "GND" H 6905 2327 50  0000 C CNN
+F 2 "" H 6900 2500 60  0000 C CNN
+F 3 "" H 6900 2500 60  0000 C CNN
+	1    6900 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5CB3B93C
+P 6900 2350
+F 0 "C?" H 7018 2396 50  0000 L CNN
+F 1 "10uFd 25v" H 7018 2305 50  0000 L CNN
+F 2 "" H 6938 2200 50  0001 C CNN
+F 3 "~" H 6900 2350 50  0001 C CNN
+	1    6900 2350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 1900 6900 1900
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CB3B945
+P 8850 2500
+F 0 "#PWR?" H 8850 2250 50  0001 C CNN
+F 1 "GND" H 8855 2327 50  0000 C CNN
+F 2 "" H 8850 2500 60  0000 C CNN
+F 3 "" H 8850 2500 60  0000 C CNN
+	1    8850 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5CB3B94B
+P 8850 2400
+F 0 "C?" H 9050 2450 50  0000 L CNN
+F 1 "22uFd 16v" H 9000 2350 50  0000 L CNN
+F 2 "" H 8888 2250 50  0001 C CNN
+F 3 "~" H 8850 2400 50  0001 C CNN
+	1    8850 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CB3B954
+P 9400 2450
+F 0 "R?" H 9459 2496 50  0000 L CNN
+F 1 "332ohm" H 9459 2405 50  0000 L CNN
+F 2 "" H 9400 2450 50  0001 C CNN
+F 3 "~" H 9400 2450 50  0001 C CNN
+	1    9400 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CB3B95B
+P 9950 2400
+F 0 "R?" H 10009 2446 50  0000 L CNN
+F 1 "0 ohm" H 10009 2355 50  0000 L CNN
+F 2 "" H 9950 2400 50  0001 C CNN
+F 3 "~" H 9950 2400 50  0001 C CNN
+	1    9950 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CB3B964
+P 9400 2750
+F 0 "D?" V 9438 2632 50  0000 R CNN
+F 1 "LED_GREEN" V 9347 2632 50  0000 R CNN
+F 2 "" H 9400 2750 50  0001 C CNN
+F 3 "~" H 9400 2750 50  0001 C CNN
+	1    9400 2750
+	0    1    -1   0   
+$EndComp
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CB3B96B
+P 9400 2950
+F 0 "#PWR?" H 9400 2700 50  0001 C CNN
+F 1 "GND" H 9405 2777 50  0000 C CNN
+F 2 "" H 9400 2950 60  0000 C CNN
+F 3 "" H 9400 2950 60  0000 C CNN
+	1    9400 2950
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10100 2600 2    50   Input ~ 0
+V3P3
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CB3B975
+P 9950 2700
+F 0 "TP?" H 9892 2727 50  0000 R CNN
+F 1 "TestPoint" H 9892 2818 50  0000 R CNN
+F 2 "" H 10150 2700 50  0001 C CNN
+F 3 "~" H 10150 2700 50  0001 C CNN
+	1    9950 2700
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9950 2500 9950 2600
+$Comp
+L SamacSys_Parts:NCP1117DTARKG IC?
+U 1 1 5CB3B983
+P 3650 1650
+F 0 "IC?" H 4400 1915 50  0000 C CNN
+F 1 "NCP1117DTARKG" H 4400 1824 50  0000 C CNN
+F 2 "TO229P990X238-4N" H 5000 1750 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/NCP1117DTARKG.pdf" H 5000 1650 50  0001 L CNN
+F 4 "" H 5000 1550 50  0001 L CNN "Description"
+F 5 "2.38" H 5000 1450 50  0001 L CNN "Height"
+F 6 "863-NCP1117DTARKG" H 5000 1350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NCP1117DTARKG" H 5000 1250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 5000 1150 50  0001 L CNN "Manufacturer_Name"
+F 9 "NCP1117DTARKG" H 5000 1050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3650 1650
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1700 1650 0    50   Input ~ 0
+USB3_VBUS
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CB3B98B
+P 1750 2300
+F 0 "#PWR?" H 1750 2050 50  0001 C CNN
+F 1 "GND" H 1755 2127 50  0000 C CNN
+F 2 "" H 1750 2300 60  0000 C CNN
+F 3 "" H 1750 2300 60  0000 C CNN
+	1    1750 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5CB3B991
+P 1750 2150
+F 0 "C?" H 1868 2196 50  0000 L CNN
+F 1 "10uFd 25v" H 1868 2105 50  0000 L CNN
+F 2 "" H 1788 2000 50  0001 C CNN
+F 3 "~" H 1750 2150 50  0001 C CNN
+	1    1750 2150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1650 1750 2000
+Wire Wire Line
+	2150 1650 1750 1650
+$Comp
+L Device:R_Small R?
+U 1 1 5CB3B99D
+P 2150 2550
+F 0 "R?" H 2209 2596 50  0000 L CNN
+F 1 "4.7K 1%" H 2209 2505 50  0000 L CNN
+F 2 "" H 2150 2550 50  0001 C CNN
+F 3 "~" H 2150 2550 50  0001 C CNN
+	1    2150 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CB3B9A4
+P 2450 2550
+F 0 "R?" H 2509 2596 50  0000 L CNN
+F 1 "1.6K 1%" H 2509 2505 50  0000 L CNN
+F 2 "" H 2450 2550 50  0001 C CNN
+F 3 "~" H 2450 2550 50  0001 C CNN
+	1    2450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CB3B9AB
+P 4400 1900
+F 0 "R?" H 4459 1946 50  0000 L CNN
+F 1 "1.96K 1%" H 4459 1855 50  0000 L CNN
+F 2 "" H 4400 1900 50  0001 C CNN
+F 3 "~" H 4400 1900 50  0001 C CNN
+	1    4400 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CB3B9B4
+P 4850 1900
+F 0 "C?" H 4942 1946 50  0000 L CNN
+F 1 "1.0uF" H 4942 1855 50  0000 L CNN
+F 2 "" H 4850 1900 50  0001 C CNN
+F 3 "~" H 4850 1900 50  0001 C CNN
+	1    4850 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CB3B9BB
+P 4600 2150
+F 0 "#PWR?" H 4600 1900 50  0001 C CNN
+F 1 "GND" H 4605 1977 50  0000 C CNN
+F 2 "" H 4600 2150 60  0000 C CNN
+F 3 "" H 4600 2150 60  0000 C CNN
+	1    4600 2150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2000 4850 2100
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 5CB3B9CD
+P 2450 2900
+F 0 "JP?" V 2404 2975 50  0000 L CNN
+F 1 "Voltage Select" V 2495 2975 50  0000 L CNN
+F 2 "" H 2450 2900 50  0001 C CNN
+F 3 "~" H 2450 2900 50  0001 C CNN
+	1    2450 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 1650 4850 1800
+$Comp
+L Device:CP C?
+U 1 1 5CB3B9DC
+P 2950 2400
+F 0 "C?" H 3068 2446 50  0000 L CNN
+F 1 "22uF 16V" H 3068 2355 50  0000 L CNN
+F 2 "" H 2988 2250 50  0001 C CNN
+F 3 "~" H 2950 2400 50  0001 C CNN
+	1    2950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CB3B9E8
+P 3500 2550
+F 0 "R?" H 3559 2596 50  0000 L CNN
+F 1 "180 Ohm" H 3559 2505 50  0000 L CNN
+F 2 "" H 3500 2550 50  0001 C CNN
+F 3 "~" H 3500 2550 50  0001 C CNN
+	1    3500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CB3BA01
+P 4050 2300
+F 0 "TP?" H 3992 2327 50  0000 R CNN
+F 1 "TestPoint" H 3992 2418 50  0000 R CNN
+F 2 "" H 4250 2300 50  0001 C CNN
+F 3 "~" H 4250 2300 50  0001 C CNN
+	1    4050 2300
+	1    0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:SC189CSKTRT IC?
+U 1 1 5CB3BA10
+P 2700 4700
+F 0 "IC?" H 3250 4965 50  0000 C CNN
+F 1 "SC189CSKTRT" H 3250 4874 50  0000 C CNN
+F 2 "SOT95P280X145-5N" H 3650 4800 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/SC189CSKTRT.pdf" H 3650 4700 50  0001 L CNN
+F 4 "Conv DC-DC 2.9V to 5.5V Synchronous Step Down Single-Out 1.2V 1.5A 6-Pin MLPD-UT T/R" H 3650 4600 50  0001 L CNN "Description"
+F 5 "1.45" H 3650 4500 50  0001 L CNN "Height"
+F 6 "947-SC189CSKTRT" H 3650 4400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=947-SC189CSKTRT" H 3650 4300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "SEMTECH" H 3650 4200 50  0001 L CNN "Manufacturer_Name"
+F 9 "SC189CSKTRT" H 3650 4100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2700 4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2150 4350 0    50   Input ~ 0
+USB3_VBUS
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CB3BA18
+P 2150 5650
+F 0 "#PWR?" H 2150 5400 50  0001 C CNN
+F 1 "GND" H 2155 5477 50  0000 C CNN
+F 2 "" H 2150 5650 60  0000 C CNN
+F 3 "" H 2150 5650 60  0000 C CNN
+	1    2150 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5CB3BA1E
+P 2150 5500
+F 0 "C?" H 2268 5546 50  0000 L CNN
+F 1 "10uFd 10v" H 2268 5455 50  0000 L CNN
+F 2 "" H 2188 5350 50  0001 C CNN
+F 3 "~" H 2150 5500 50  0001 C CNN
+	1    2150 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4900 2150 4900
+Wire Wire Line
+	2150 4900 2150 5350
+Wire Wire Line
+	2150 4700 2150 4900
+Connection ~ 2150 4900
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CB3BA29
+P 2700 4800
+F 0 "#PWR?" H 2700 4550 50  0001 C CNN
+F 1 "GND" V 2705 4672 50  0000 R CNN
+F 2 "" H 2700 4800 60  0000 C CNN
+F 3 "" H 2700 4800 60  0000 C CNN
+	1    2700 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 4350 2150 4700
+$Comp
+L OLIMEX_RCL:INDUCTOR_SMALL L?
+U 1 1 5CB3BA31
+P 4050 4800
+F 0 "L?" H 4050 5015 50  0000 C CNN
+F 1 "2.2uH" H 4050 4924 50  0000 C CNN
+F 2 "" H 4050 4800 60  0000 C CNN
+F 3 "" H 4050 4800 60  0000 C CNN
+	1    4050 4800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4300 4700 3800 4700
+Wire Wire Line
+	2150 4700 2700 4700
+$Comp
+L Device:R_Small R?
+U 1 1 5CB3BA3A
+P 4700 5050
+F 0 "R?" H 4759 5096 50  0000 L CNN
+F 1 "120ohm" H 4759 5005 50  0000 L CNN
+F 2 "" H 4700 5050 50  0001 C CNN
+F 3 "~" H 4700 5050 50  0001 C CNN
+	1    4700 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CB3BA41
+P 4900 4700
+F 0 "R?" V 5096 4700 50  0000 C CNN
+F 1 "0 ohm" V 5005 4700 50  0000 C CNN
+F 2 "" H 4900 4700 50  0001 C CNN
+F 3 "~" H 4900 4700 50  0001 C CNN
+	1    4900 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 4700 4700 4700
+Wire Wire Line
+	4700 4700 4700 4950
+Connection ~ 4700 4700
+Wire Wire Line
+	4700 4700 4800 4700
+$Comp
+L Device:C_Small C?
+U 1 1 5CB3BA4D
+P 4300 5200
+F 0 "C?" H 4392 5246 50  0000 L CNN
+F 1 "22uF 6.3V" H 4392 5155 50  0000 L CNN
+F 2 "" H 4300 5200 50  0001 C CNN
+F 3 "~" H 4300 5200 50  0001 C CNN
+	1    4300 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CB3BA57
+P 4300 5450
+F 0 "#PWR?" H 4300 5200 50  0001 C CNN
+F 1 "GND" H 4305 5277 50  0000 C CNN
+F 2 "" H 4300 5450 60  0000 C CNN
+F 3 "" H 4300 5450 60  0000 C CNN
+	1    4300 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 5150 4700 5300
+Wire Wire Line
+	4700 5300 4300 5300
+Wire Wire Line
+	4300 5450 4300 5300
+Connection ~ 4300 5300
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CB3BA61
+P 5100 4800
+F 0 "TP?" H 5042 4827 50  0000 R CNN
+F 1 "TestPoint" H 5042 4918 50  0000 R CNN
+F 2 "" H 5300 4800 50  0001 C CNN
+F 3 "~" H 5300 4800 50  0001 C CNN
+	1    5100 4800
+	-1   0    0    1   
+$EndComp
+Text GLabel 5400 4700 2    50   Input ~ 0
+V1P2
+Wire Wire Line
+	7050 2200 8850 2200
+Connection ~ 8850 2200
+Wire Wire Line
+	10100 2600 9950 2600
+Connection ~ 9950 2600
+Wire Wire Line
+	9950 2600 9950 2700
+Wire Wire Line
+	9400 2550 9400 2600
+Wire Wire Line
+	9400 2950 9400 2900
+Wire Wire Line
+	8850 2200 8850 2250
+Wire Wire Line
+	8850 2200 9400 2200
+Wire Wire Line
+	9400 2350 9400 2200
+Wire Wire Line
+	9400 2200 9950 2200
+Wire Wire Line
+	9950 2200 9950 2300
+Connection ~ 9400 2200
+Wire Wire Line
+	6900 1900 6900 2200
+Connection ~ 6900 1900
+Wire Wire Line
+	6900 1900 6850 1900
+Wire Notes Line
+	10650 3400 6250 3400
+Wire Notes Line
+	6250 3400 6250 1150
+Wire Notes Line
+	6250 1150 10650 1150
+Wire Notes Line
+	10650 1150 10650 3400
+Text Notes 6400 1300 0    50   ~ 0
+3.3V 1.5V regulator
+Connection ~ 1750 1650
+Wire Wire Line
+	1750 1650 1700 1650
+Wire Wire Line
+	2150 1750 2150 1950
+Wire Wire Line
+	2150 1950 3650 1950
+Wire Wire Line
+	3650 1950 3650 1750
+Wire Wire Line
+	2450 2650 2450 2800
+Wire Wire Line
+	2450 2450 2450 2200
+Wire Wire Line
+	2150 2650 2150 3000
+Wire Wire Line
+	4400 1650 4850 1650
+Wire Wire Line
+	4400 1650 4400 1800
+Wire Wire Line
+	4400 2000 4400 2100
+Wire Wire Line
+	4400 2100 4600 2100
+Wire Wire Line
+	4600 2150 4600 2100
+Connection ~ 4600 2100
+Wire Wire Line
+	4600 2100 4850 2100
+Connection ~ 2150 1950
+Wire Wire Line
+	2150 1950 2150 2200
+Wire Wire Line
+	2150 2200 2150 2450
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CB6BC8C
+P 2950 2700
+F 0 "#PWR?" H 2950 2450 50  0001 C CNN
+F 1 "GND" H 2955 2527 50  0000 C CNN
+F 2 "" H 2950 2700 60  0000 C CNN
+F 3 "" H 2950 2700 60  0000 C CNN
+	1    2950 2700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2550 2950 2650
+Wire Wire Line
+	2950 2650 3500 2650
+Connection ~ 2950 2650
+Wire Wire Line
+	2950 2650 2950 2700
+Wire Wire Line
+	3500 2450 3500 2200
+Wire Wire Line
+	3650 1650 4400 1650
+Connection ~ 4400 1650
+Wire Wire Line
+	5100 1650 4850 1650
+Wire Wire Line
+	5100 1650 5100 3100
+Connection ~ 4850 1650
+$Comp
+L Device:R_Small R?
+U 1 1 5CB910E6
+P 3750 2200
+F 0 "R?" V 3554 2200 50  0000 C CNN
+F 1 "0 Ohm" V 3645 2200 50  0000 C CNN
+F 2 "" H 3750 2200 50  0001 C CNN
+F 3 "~" H 3750 2200 50  0001 C CNN
+	1    3750 2200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3500 2200 3650 2200
+Connection ~ 3500 2200
+Text GLabel 4100 2200 2    50   Input ~ 0
+VIO
+Wire Wire Line
+	4050 2300 4050 2200
+Wire Wire Line
+	4050 2200 3850 2200
+Wire Wire Line
+	4050 2200 4100 2200
+Connection ~ 4050 2200
+Wire Wire Line
+	2950 2250 2950 2200
+Connection ~ 2950 2200
+Wire Wire Line
+	2950 2200 3500 2200
+Wire Wire Line
+	2450 2200 2950 2200
+Wire Wire Line
+	2450 2200 2150 2200
+Connection ~ 2150 2200
+Connection ~ 2450 2200
+Wire Wire Line
+	2450 3000 2150 3000
+Connection ~ 2150 3000
+Wire Wire Line
+	2150 3000 2150 3100
+Wire Wire Line
+	2150 3100 5100 3100
+Wire Notes Line
+	6050 1150 1100 1150
+Wire Notes Line
+	1100 1150 1100 3400
+Wire Notes Line
+	1100 3400 6050 3400
+Wire Notes Line
+	6050 3400 6050 1150
+Text Notes 1200 1300 0    50   ~ 0
+VIO regulation. 1.8 when the jumper is open, 3.3V when its shorted.
+Connection ~ 2150 4700
+Connection ~ 4300 4700
+Wire Wire Line
+	4300 4700 4300 4800
+Connection ~ 4300 4800
+Wire Wire Line
+	4300 4800 4300 5100
+Wire Wire Line
+	5000 4700 5100 4700
+Wire Wire Line
+	5100 4800 5100 4700
+Connection ~ 5100 4700
+Wire Wire Line
+	5100 4700 5400 4700
+Wire Notes Line
+	1100 3700 1100 6000
+Wire Notes Line
+	1100 6000 6050 6000
+Wire Notes Line
+	6050 6000 6050 3700
+Wire Notes Line
+	6050 3700 1100 3700
+Text Notes 1300 3900 0    50   ~ 0
+1.2V 1.5A regulation\n
+$EndSCHEMATC

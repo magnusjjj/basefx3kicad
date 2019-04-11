@@ -1,0 +1,513 @@
+EESchema Schematic File Version 4
+LIBS:fx3kicad-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 5150 4100 0    50   Input ~ 0
+TMS
+Text HLabel 5150 4000 0    50   Input ~ 0
+TDI
+Text HLabel 5150 4300 0    50   Input ~ 0
+TRST#
+Text HLabel 5150 4200 0    50   Input ~ 0
+TCK
+Text HLabel 5150 3900 0    50   Input ~ 0
+TDO
+$Comp
+L Interface_USB:CY7C65215-32LTXI U?
+U 1 1 5CEECD32
+P 6050 3600
+F 0 "U?" H 6350 2450 50  0000 C CNN
+F 1 "CY7C65215-32LTXI" H 6650 2350 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 6050 2300 50  0001 C CNN
+F 3 "http://www.cypress.com/file/129956/download" H 4450 4650 50  0001 C CNN
+	1    6050 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3900 5350 3900
+Wire Wire Line
+	5150 4000 5350 4000
+Wire Wire Line
+	5150 4100 5350 4100
+Wire Wire Line
+	5150 4200 5350 4200
+Wire Wire Line
+	5150 4300 5350 4300
+NoConn ~ 6750 4400
+NoConn ~ 6750 4300
+NoConn ~ 6750 4200
+NoConn ~ 6750 4100
+NoConn ~ 6750 4000
+NoConn ~ 6750 3900
+NoConn ~ 6750 3800
+NoConn ~ 5350 4400
+NoConn ~ 6750 3300
+NoConn ~ 5350 3700
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CEECFC6
+P 6050 5100
+F 0 "#PWR?" H 6050 4850 50  0001 C CNN
+F 1 "GND" H 6055 4927 50  0000 C CNN
+F 2 "" H 6050 5100 60  0000 C CNN
+F 3 "" H 6050 5100 60  0000 C CNN
+	1    6050 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4800 5950 4850
+Wire Wire Line
+	5950 4850 6050 4850
+Wire Wire Line
+	6050 4850 6050 4800
+Wire Wire Line
+	6050 4850 6150 4850
+Wire Wire Line
+	6150 4850 6150 4800
+Connection ~ 6050 4850
+Wire Wire Line
+	6050 4850 6050 5100
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5CEED161
+P 10100 2800
+F 0 "J?" H 9871 2791 50  0000 R CNN
+F 1 "USB_B_Micro" H 9871 2700 50  0000 R CNN
+F 2 "" H 10250 2750 50  0001 C CNN
+F 3 "~" H 10250 2750 50  0001 C CNN
+	1    10100 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:82400102 D?
+U 1 1 5CEED3E9
+P 8700 2900
+F 0 "D?" H 9350 3165 50  0000 C CNN
+F 1 "82400102" H 9350 3074 50  0000 C CNN
+F 2 "SOT95P280X145-6N" H 9850 3000 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/82400102.pdf" H 9850 2900 50  0001 L CNN
+F 4 "TVS Diode Array WE-TVS 2-Ch+VDD 5V SOT23 Wurth Elektronik 82400102, Uni-Directional TVS Diode Array Array, 7.7V, 6-Pin SOT-23" H 9850 2800 50  0001 L CNN "Description"
+F 5 "1.45" H 9850 2700 50  0001 L CNN "Height"
+F 6 "710-82400102" H 9850 2600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=710-82400102" H 9850 2500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Wurth Elektronik" H 9850 2400 50  0001 L CNN "Manufacturer_Name"
+F 9 "82400102" H 9850 2300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8700 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CEEDE6C
+P 8700 3000
+F 0 "#PWR?" H 8700 2750 50  0001 C CNN
+F 1 "GND" V 8705 2872 50  0000 R CNN
+F 2 "" H 8700 3000 60  0000 C CNN
+F 3 "" H 8700 3000 60  0000 C CNN
+	1    8700 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5CEEEC20
+P 10200 3500
+F 0 "FB?" H 10300 3546 50  0000 L CNN
+F 1 "BLM21PG221SN1D" H 10300 3455 50  0000 L CNN
+F 2 "" V 10130 3500 50  0001 C CNN
+F 3 "~" H 10200 3500 50  0001 C CNN
+	1    10200 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CEEEC93
+P 10100 3600
+F 0 "#PWR?" H 10100 3350 50  0001 C CNN
+F 1 "GND" H 10105 3427 50  0000 C CNN
+F 2 "" H 10100 3600 60  0000 C CNN
+F 3 "" H 10100 3600 60  0000 C CNN
+	1    10100 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 3600 10100 3600
+Wire Wire Line
+	6750 2900 6900 2900
+Text GLabel 5950 2300 1    50   Input ~ 0
+V3P3
+Wire Wire Line
+	5950 2700 5950 2500
+Wire Wire Line
+	6050 2700 6050 2500
+Wire Wire Line
+	6050 2500 5950 2500
+Connection ~ 5950 2500
+$Comp
+L Device:C_Small C?
+U 1 1 5CEF1AF5
+P 6150 2250
+F 0 "C?" H 6058 2204 50  0000 R CNN
+F 1 "0.1UF_16" H 6058 2295 50  0000 R CNN
+F 2 "" H 6150 2250 50  0001 C CNN
+F 3 "~" H 6150 2250 50  0001 C CNN
+	1    6150 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CEF25A8
+P 6150 2000
+F 0 "#PWR?" H 6150 1750 50  0001 C CNN
+F 1 "GND" V 6155 1872 50  0000 R CNN
+F 2 "" H 6150 2000 60  0000 C CNN
+F 3 "" H 6150 2000 60  0000 C CNN
+	1    6150 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CEF2BA7
+P 4950 2800
+F 0 "R?" H 4891 2754 50  0000 R CNN
+F 1 "10K" H 4891 2845 50  0000 R CNN
+F 2 "" H 4950 2800 50  0001 C CNN
+F 3 "~" H 4950 2800 50  0001 C CNN
+	1    4950 2800
+	-1   0    0    1   
+$EndComp
+Text GLabel 4600 2550 1    50   Input ~ 0
+V3P3
+$Comp
+L Device:R_Small R?
+U 1 1 5CEF514D
+P 4600 2800
+F 0 "R?" H 4659 2846 50  0000 L CNN
+F 1 "10K" H 4659 2755 50  0000 L CNN
+F 2 "" H 4600 2800 50  0001 C CNN
+F 3 "~" H 4600 2800 50  0001 C CNN
+	1    4600 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2700 4600 2650
+Wire Wire Line
+	4600 2650 4150 2650
+Connection ~ 4600 2650
+Wire Wire Line
+	4600 2650 4600 2550
+$Comp
+L Device:R_Small R?
+U 1 1 5CEF85E8
+P 4150 2800
+F 0 "R?" H 4209 2846 50  0000 L CNN
+F 1 "10K" H 4209 2755 50  0000 L CNN
+F 2 "" H 4150 2800 50  0001 C CNN
+F 3 "~" H 4150 2800 50  0001 C CNN
+	1    4150 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2650 4150 2700
+Wire Wire Line
+	5350 2900 5150 2900
+Wire Wire Line
+	5150 2900 5150 3100
+Wire Wire Line
+	5150 3100 4300 3100
+$Comp
+L Device:C_Small C?
+U 1 1 5CF005BC
+P 4300 3200
+F 0 "C?" H 4392 3246 50  0000 L CNN
+F 1 "0.01uF_25V" H 4392 3155 50  0000 L CNN
+F 2 "" H 4300 3200 50  0001 C CNN
+F 3 "~" H 4300 3200 50  0001 C CNN
+	1    4300 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 3100
+Wire Wire Line
+	4300 3100 4150 3100
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CF0064F
+P 4300 3300
+F 0 "#PWR?" H 4300 3050 50  0001 C CNN
+F 1 "GND" H 4305 3127 50  0000 C CNN
+F 2 "" H 4300 3300 60  0000 C CNN
+F 3 "" H 4300 3300 60  0000 C CNN
+	1    4300 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2900 4150 3100
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CF0164A
+P 6250 2700
+F 0 "#PWR?" H 6250 2450 50  0001 C CNN
+F 1 "GND" H 6255 2527 50  0000 C CNN
+F 2 "" H 6250 2700 60  0000 C CNN
+F 3 "" H 6250 2700 60  0000 C CNN
+	1    6250 2700
+	-1   0    0    1   
+$EndComp
+Text Notes 6350 2550 0    50   ~ 0
+Yes, pin 20 is connected to ground. Its really VSSD.\nCheck https://github.com/KiCad/kicad-symbols/issues/1717
+Wire Wire Line
+	4850 3200 4850 3600
+Wire Wire Line
+	4850 3200 5350 3200
+Wire Wire Line
+	5350 3300 4900 3300
+Wire Wire Line
+	4900 3300 4900 3650
+Wire Wire Line
+	5350 3400 4950 3400
+Wire Wire Line
+	4950 3400 4950 3700
+Wire Wire Line
+	5350 3500 5000 3500
+Wire Wire Line
+	5000 3500 5000 3750
+Wire Wire Line
+	5350 3600 5050 3600
+Wire Wire Line
+	5050 3600 5050 3800
+Wire Wire Line
+	3250 3600 3250 3450
+Wire Wire Line
+	3250 3600 4850 3600
+Wire Wire Line
+	3150 3650 4900 3650
+Wire Wire Line
+	3050 3700 3050 3450
+Wire Wire Line
+	3050 3700 4950 3700
+Wire Wire Line
+	2950 3750 2950 3450
+Wire Wire Line
+	2950 3750 5000 3750
+Wire Wire Line
+	2850 3800 2850 3450
+Wire Wire Line
+	2850 3800 5050 3800
+Text GLabel 2850 3450 1    50   Input ~ 0
+SPI-MOSI_UART-RX
+Text GLabel 2950 3450 1    50   Input ~ 0
+I2C_SDA_FX3
+Text GLabel 3050 3450 1    50   Input ~ 0
+I2C_SCL_FX3
+Text GLabel 3250 3450 1    50   Input ~ 0
+SPI-MOSI_UART-TX
+Wire Wire Line
+	3150 2500 3150 3650
+$Comp
+L Device:R_Small R?
+U 1 1 5CF12594
+P 3150 2400
+F 0 "R?" H 3209 2446 50  0000 L CNN
+F 1 "10K" H 3209 2355 50  0000 L CNN
+F 2 "" H 3150 2400 50  0001 C CNN
+F 3 "~" H 3150 2400 50  0001 C CNN
+	1    3150 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 2300 3150 2250
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CF14289
+P 3150 2250
+F 0 "#PWR?" H 3150 2000 50  0001 C CNN
+F 1 "GND" H 3155 2077 50  0000 C CNN
+F 2 "" H 3150 2250 60  0000 C CNN
+F 3 "" H 3150 2250 60  0000 C CNN
+	1    3150 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9800 2600 9400 2600
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5CF51F46
+P 9300 2600
+F 0 "FB?" V 9063 2600 50  0000 C CNN
+F 1 "120E 2A" V 9154 2600 50  0000 C CNN
+F 2 "" V 9230 2600 50  0001 C CNN
+F 3 "~" H 9300 2600 50  0001 C CNN
+	1    9300 2600
+	0    1    1    0   
+$EndComp
+NoConn ~ 9800 3000
+Wire Wire Line
+	9800 2900 9400 2900
+Wire Wire Line
+	9400 2900 9400 3100
+Wire Wire Line
+	9400 3100 8700 3100
+Wire Wire Line
+	9800 2800 8700 2800
+Wire Wire Line
+	8700 2800 8700 2900
+Wire Wire Line
+	6750 3100 7400 3100
+Wire Wire Line
+	6750 3000 7150 3000
+Wire Wire Line
+	7150 3000 7150 2900
+Wire Wire Line
+	7150 2900 7400 2900
+Wire Wire Line
+	6900 2600 6900 2900
+Wire Wire Line
+	6900 2600 7250 2600
+Wire Wire Line
+	7400 3000 7250 3000
+Wire Wire Line
+	7250 3000 7250 2600
+Connection ~ 7250 2600
+Wire Wire Line
+	7250 2600 8300 2600
+Wire Wire Line
+	10100 3200 10100 3600
+Connection ~ 10100 3600
+Wire Wire Line
+	10200 3400 10200 3200
+Wire Wire Line
+	8300 2600 8300 1900
+Connection ~ 8300 2600
+Wire Wire Line
+	8300 2600 9200 2600
+Text Label 8300 1900 0    50   ~ 0
+V_BUS
+Wire Wire Line
+	4600 2900 4600 3000
+Wire Wire Line
+	4600 3000 4950 3000
+Wire Wire Line
+	5950 2500 5950 2300
+Wire Wire Line
+	4950 2900 4950 3000
+Connection ~ 4950 3000
+Wire Wire Line
+	4950 3000 5350 3000
+Wire Wire Line
+	6150 2700 6150 2350
+Wire Wire Line
+	6150 2150 6150 2000
+Wire Wire Line
+	4950 2000 4950 2700
+Wire Wire Line
+	4950 2000 6150 2000
+Connection ~ 6150 2000
+Wire Wire Line
+	4450 5200 4450 5500
+Text Label 4450 5250 0    50   ~ 0
+V_BUS
+Wire Wire Line
+	4450 5500 4550 5500
+Wire Wire Line
+	4450 5500 4350 5500
+Connection ~ 4450 5500
+$Comp
+L Device:C_Small C?
+U 1 1 5CFD1B97
+P 4550 5600
+F 0 "C?" H 4642 5646 50  0000 L CNN
+F 1 "0.1uF_25V" H 4642 5555 50  0000 L CNN
+F 2 "" H 4550 5600 50  0001 C CNN
+F 3 "~" H 4550 5600 50  0001 C CNN
+	1    4550 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CFD1C1A
+P 4350 5600
+F 0 "C?" H 4150 5650 50  0000 L CNN
+F 1 "1UF_16V" H 3950 5550 50  0000 L CNN
+F 2 "" H 4350 5600 50  0001 C CNN
+F 3 "~" H 4350 5600 50  0001 C CNN
+	1    4350 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5700 4450 5700
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CFD5729
+P 4450 5700
+F 0 "#PWR?" H 4450 5450 50  0001 C CNN
+F 1 "GND" H 4455 5527 50  0000 C CNN
+F 2 "" H 4450 5700 60  0000 C CNN
+F 3 "" H 4450 5700 60  0000 C CNN
+	1    4450 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 5700
+Wire Wire Line
+	4450 5700 4550 5700
+$Comp
+L Device:C_Small C?
+U 1 1 5CFD5775
+P 3300 5500
+F 0 "C?" H 3392 5546 50  0000 L CNN
+F 1 "0.1uF_25V" H 3392 5455 50  0000 L CNN
+F 2 "" H 3300 5500 50  0001 C CNN
+F 3 "~" H 3300 5500 50  0001 C CNN
+	1    3300 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5CFD736F
+P 3100 5500
+F 0 "C?" H 2900 5550 50  0000 L CNN
+F 1 "4.7uf / 25V" H 2550 5450 50  0000 L CNN
+F 2 "" H 3100 5500 50  0001 C CNN
+F 3 "~" H 3100 5500 50  0001 C CNN
+	1    3100 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 5CFD7480
+P 3200 5700
+F 0 "#PWR?" H 3200 5450 50  0001 C CNN
+F 1 "GND" H 3205 5527 50  0000 C CNN
+F 2 "" H 3200 5700 60  0000 C CNN
+F 3 "" H 3200 5700 60  0000 C CNN
+	1    3200 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 5600 3300 5700
+Wire Wire Line
+	3300 5700 3200 5700
+Wire Wire Line
+	3100 5600 3100 5700
+Wire Wire Line
+	3100 5700 3200 5700
+Connection ~ 3200 5700
+Wire Wire Line
+	3300 5400 3200 5400
+Wire Wire Line
+	3200 5400 3200 5200
+Connection ~ 3200 5400
+Wire Wire Line
+	3200 5400 3100 5400
+Text GLabel 3200 5200 0    50   Input ~ 0
+V3P3
+$EndSCHEMATC

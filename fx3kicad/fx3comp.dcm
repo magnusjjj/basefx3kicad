@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NX2520SA-19.200000MHZ-NBG1
+D Four pin crystal, GND on pins 2 and 3
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+#End Doc Library

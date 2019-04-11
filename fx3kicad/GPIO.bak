@@ -1,0 +1,947 @@
+EESchema Schematic File Version 4
+LIBS:fx3kicad-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:CYUSB2014-BZXC IC_USB?
+U 2 1 5CE140AE
+P 3150 1900
+AR Path="/5CE140AE" Ref="IC_USB?"  Part="2" 
+AR Path="/5CE13F1A/5CE140AE" Ref="IC_USB?"  Part="2" 
+F 0 "IC_USB?" H 4000 2165 50  0000 C CNN
+F 1 "CYUSB2014-BZXC" H 4000 2074 50  0000 C CNN
+F 2 "BGA121C80P11X11_1000X1000X120" H 4700 2000 50  0001 L CNN
+F 3 "https://www.cypress.com/file/140296/download" H 4700 1900 50  0001 L CNN
+F 4 "Cypress, CYUSB2014-BZXC" H 4700 1800 50  0001 L CNN "Description"
+F 5 "1.2" H 4700 1700 50  0001 L CNN "Height"
+F 6 "727-CYUSB2014-BZXC" H 4700 1600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=727-CYUSB2014-BZXC" H 4700 1500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Cypress Semiconductor" H 4700 1400 50  0001 L CNN "Manufacturer_Name"
+F 9 "CYUSB2014-BZXC" H 4700 1300 50  0001 L CNN "Manufacturer_Part_Number"
+	2    3150 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CFE9DDD
+P 5900 5100
+F 0 "R?" V 5950 4900 50  0000 L CNN
+F 1 "22 Ohm" V 5950 5200 50  0000 L CNN
+F 2 "" H 5900 5100 50  0001 C CNN
+F 3 "~" H 5900 5100 50  0001 C CNN
+	1    5900 5100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 5100 5800 5100
+Wire Wire Line
+	6000 5100 6200 5100
+$Comp
+L Device:R_Small R?
+U 1 1 5CFE9F52
+P 5900 5000
+F 0 "R?" V 5950 4800 50  0000 L CNN
+F 1 "22 Ohm" V 5950 5100 50  0000 L CNN
+F 2 "" H 5900 5000 50  0001 C CNN
+F 3 "~" H 5900 5000 50  0001 C CNN
+	1    5900 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 5000 5800 5000
+Wire Wire Line
+	6000 5000 6200 5000
+$Comp
+L Device:R_Small R?
+U 1 1 5CFE9F97
+P 5900 4900
+F 0 "R?" V 5950 4700 50  0000 L CNN
+F 1 "22 Ohm" V 5950 5000 50  0000 L CNN
+F 2 "" H 5900 4900 50  0001 C CNN
+F 3 "~" H 5900 4900 50  0001 C CNN
+	1    5900 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 4900 5800 4900
+Wire Wire Line
+	6000 4900 6200 4900
+$Comp
+L Device:R_Small R?
+U 1 1 5CFE9FFC
+P 5900 4800
+F 0 "R?" V 5950 4600 50  0000 L CNN
+F 1 "22 Ohm" V 5950 4900 50  0000 L CNN
+F 2 "" H 5900 4800 50  0001 C CNN
+F 3 "~" H 5900 4800 50  0001 C CNN
+	1    5900 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 4800 5800 4800
+Wire Wire Line
+	6000 4800 6200 4800
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEA0A4
+P 5900 4700
+F 0 "R?" V 5950 4500 50  0000 L CNN
+F 1 "22 Ohm" V 5950 4800 50  0000 L CNN
+F 2 "" H 5900 4700 50  0001 C CNN
+F 3 "~" H 5900 4700 50  0001 C CNN
+	1    5900 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 4700 5800 4700
+Wire Wire Line
+	6000 4700 6200 4700
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEA1A0
+P 5900 4600
+F 0 "R?" V 5950 4400 50  0000 L CNN
+F 1 "22 Ohm" V 5950 4700 50  0000 L CNN
+F 2 "" H 5900 4600 50  0001 C CNN
+F 3 "~" H 5900 4600 50  0001 C CNN
+	1    5900 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 4600 5800 4600
+Wire Wire Line
+	6000 4600 6200 4600
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEA332
+P 5900 4500
+F 0 "R?" V 5950 4300 50  0000 L CNN
+F 1 "22 Ohm" V 5950 4600 50  0000 L CNN
+F 2 "" H 5900 4500 50  0001 C CNN
+F 3 "~" H 5900 4500 50  0001 C CNN
+	1    5900 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 4500 5800 4500
+Wire Wire Line
+	6000 4500 6200 4500
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEA51D
+P 5900 4400
+F 0 "R?" V 5950 4200 50  0000 L CNN
+F 1 "22 Ohm" V 5950 4500 50  0000 L CNN
+F 2 "" H 5900 4400 50  0001 C CNN
+F 3 "~" H 5900 4400 50  0001 C CNN
+	1    5900 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 4400 5800 4400
+Wire Wire Line
+	6000 4400 6200 4400
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEA795
+P 5900 4300
+F 0 "R?" V 5950 4100 50  0000 L CNN
+F 1 "22 Ohm" V 5950 4400 50  0000 L CNN
+F 2 "" H 5900 4300 50  0001 C CNN
+F 3 "~" H 5900 4300 50  0001 C CNN
+	1    5900 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 4300 5800 4300
+Wire Wire Line
+	6000 4300 6200 4300
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEAAC1
+P 5900 4200
+F 0 "R?" V 5950 4000 50  0000 L CNN
+F 1 "22 Ohm" V 5950 4300 50  0000 L CNN
+F 2 "" H 5900 4200 50  0001 C CNN
+F 3 "~" H 5900 4200 50  0001 C CNN
+	1    5900 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 4200 5800 4200
+Wire Wire Line
+	6000 4200 6200 4200
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEAEAA
+P 5900 4100
+F 0 "R?" V 5950 3900 50  0000 L CNN
+F 1 "22 Ohm" V 5950 4200 50  0000 L CNN
+F 2 "" H 5900 4100 50  0001 C CNN
+F 3 "~" H 5900 4100 50  0001 C CNN
+	1    5900 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 4100 5800 4100
+Wire Wire Line
+	6000 4100 6200 4100
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEB367
+P 5900 4000
+F 0 "R?" V 5950 3800 50  0000 L CNN
+F 1 "22 Ohm" V 5950 4100 50  0000 L CNN
+F 2 "" H 5900 4000 50  0001 C CNN
+F 3 "~" H 5900 4000 50  0001 C CNN
+	1    5900 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 4000 5800 4000
+Wire Wire Line
+	6000 4000 6200 4000
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEBFC4
+P 5900 3900
+F 0 "R?" V 5950 3700 50  0000 L CNN
+F 1 "22 Ohm" V 5950 4000 50  0000 L CNN
+F 2 "" H 5900 3900 50  0001 C CNN
+F 3 "~" H 5900 3900 50  0001 C CNN
+	1    5900 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 3900 5800 3900
+Wire Wire Line
+	6000 3900 6200 3900
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEC66C
+P 5900 3800
+F 0 "R?" V 5950 3600 50  0000 L CNN
+F 1 "22 Ohm" V 5950 3900 50  0000 L CNN
+F 2 "" H 5900 3800 50  0001 C CNN
+F 3 "~" H 5900 3800 50  0001 C CNN
+	1    5900 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 3800 5800 3800
+Wire Wire Line
+	6000 3800 6200 3800
+$Comp
+L Device:R_Small R?
+U 1 1 5CFECE29
+P 5900 3700
+F 0 "R?" V 5950 3500 50  0000 L CNN
+F 1 "22 Ohm" V 5950 3800 50  0000 L CNN
+F 2 "" H 5900 3700 50  0001 C CNN
+F 3 "~" H 5900 3700 50  0001 C CNN
+	1    5900 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 3700 5800 3700
+Wire Wire Line
+	6000 3700 6200 3700
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEE231
+P 5900 3600
+F 0 "R?" V 5950 3400 50  0000 L CNN
+F 1 "22 Ohm" V 5950 3700 50  0000 L CNN
+F 2 "" H 5900 3600 50  0001 C CNN
+F 3 "~" H 5900 3600 50  0001 C CNN
+	1    5900 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 3600 5800 3600
+Wire Wire Line
+	6000 3600 6200 3600
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEE23A
+P 5900 3500
+F 0 "R?" V 5950 3300 50  0000 L CNN
+F 1 "22 Ohm" V 5950 3600 50  0000 L CNN
+F 2 "" H 5900 3500 50  0001 C CNN
+F 3 "~" H 5900 3500 50  0001 C CNN
+	1    5900 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 3500 5800 3500
+Wire Wire Line
+	6000 3500 6200 3500
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEE243
+P 5900 3400
+F 0 "R?" V 5950 3200 50  0000 L CNN
+F 1 "22 Ohm" V 5950 3500 50  0000 L CNN
+F 2 "" H 5900 3400 50  0001 C CNN
+F 3 "~" H 5900 3400 50  0001 C CNN
+	1    5900 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 3400 5800 3400
+Wire Wire Line
+	6000 3400 6200 3400
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEE24C
+P 5900 3300
+F 0 "R?" V 5950 3100 50  0000 L CNN
+F 1 "22 Ohm" V 5950 3400 50  0000 L CNN
+F 2 "" H 5900 3300 50  0001 C CNN
+F 3 "~" H 5900 3300 50  0001 C CNN
+	1    5900 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 3300 5800 3300
+Wire Wire Line
+	6000 3300 6200 3300
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEE255
+P 5900 3200
+F 0 "R?" V 5950 3000 50  0000 L CNN
+F 1 "22 Ohm" V 5950 3300 50  0000 L CNN
+F 2 "" H 5900 3200 50  0001 C CNN
+F 3 "~" H 5900 3200 50  0001 C CNN
+	1    5900 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 3200 5800 3200
+Wire Wire Line
+	6000 3200 6200 3200
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEE25E
+P 5900 3100
+F 0 "R?" V 5950 2900 50  0000 L CNN
+F 1 "22 Ohm" V 5950 3200 50  0000 L CNN
+F 2 "" H 5900 3100 50  0001 C CNN
+F 3 "~" H 5900 3100 50  0001 C CNN
+	1    5900 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 3100 5800 3100
+Wire Wire Line
+	6000 3100 6200 3100
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEE267
+P 5900 3000
+F 0 "R?" V 5950 2800 50  0000 L CNN
+F 1 "22 Ohm" V 5950 3100 50  0000 L CNN
+F 2 "" H 5900 3000 50  0001 C CNN
+F 3 "~" H 5900 3000 50  0001 C CNN
+	1    5900 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 3000 5800 3000
+Wire Wire Line
+	6000 3000 6200 3000
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEE270
+P 5900 2900
+F 0 "R?" V 5950 2700 50  0000 L CNN
+F 1 "22 Ohm" V 5950 3000 50  0000 L CNN
+F 2 "" H 5900 2900 50  0001 C CNN
+F 3 "~" H 5900 2900 50  0001 C CNN
+	1    5900 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 2900 5800 2900
+Wire Wire Line
+	6000 2900 6200 2900
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEE279
+P 5900 2800
+F 0 "R?" V 5950 2600 50  0000 L CNN
+F 1 "22 Ohm" V 5950 2900 50  0000 L CNN
+F 2 "" H 5900 2800 50  0001 C CNN
+F 3 "~" H 5900 2800 50  0001 C CNN
+	1    5900 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 2800 5800 2800
+Wire Wire Line
+	6000 2800 6200 2800
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEE282
+P 5900 2700
+F 0 "R?" V 5950 2500 50  0000 L CNN
+F 1 "22 Ohm" V 5950 2800 50  0000 L CNN
+F 2 "" H 5900 2700 50  0001 C CNN
+F 3 "~" H 5900 2700 50  0001 C CNN
+	1    5900 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 2700 5800 2700
+Wire Wire Line
+	6000 2700 6200 2700
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEE28B
+P 5900 2600
+F 0 "R?" V 5950 2400 50  0000 L CNN
+F 1 "22 Ohm" V 5950 2700 50  0000 L CNN
+F 2 "" H 5900 2600 50  0001 C CNN
+F 3 "~" H 5900 2600 50  0001 C CNN
+	1    5900 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 2600 5800 2600
+Wire Wire Line
+	6000 2600 6200 2600
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEE294
+P 5900 2500
+F 0 "R?" V 5950 2300 50  0000 L CNN
+F 1 "22 Ohm" V 5950 2600 50  0000 L CNN
+F 2 "" H 5900 2500 50  0001 C CNN
+F 3 "~" H 5900 2500 50  0001 C CNN
+	1    5900 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 2500 5800 2500
+Wire Wire Line
+	6000 2500 6200 2500
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEE29D
+P 5900 2400
+F 0 "R?" V 5950 2200 50  0000 L CNN
+F 1 "22 Ohm" V 5950 2500 50  0000 L CNN
+F 2 "" H 5900 2400 50  0001 C CNN
+F 3 "~" H 5900 2400 50  0001 C CNN
+	1    5900 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 2400 5800 2400
+Wire Wire Line
+	6000 2400 6200 2400
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEE2A6
+P 5900 2300
+F 0 "R?" V 5950 2100 50  0000 L CNN
+F 1 "22 Ohm" V 5950 2400 50  0000 L CNN
+F 2 "" H 5900 2300 50  0001 C CNN
+F 3 "~" H 5900 2300 50  0001 C CNN
+	1    5900 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 2300 5800 2300
+Wire Wire Line
+	6000 2300 6200 2300
+$Comp
+L Device:R_Small R?
+U 1 1 5CFEE2AF
+P 5900 2200
+F 0 "R?" V 5950 2000 50  0000 L CNN
+F 1 "22 Ohm" V 5950 2300 50  0000 L CNN
+F 2 "" H 5900 2200 50  0001 C CNN
+F 3 "~" H 5900 2200 50  0001 C CNN
+	1    5900 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 2200 5800 2200
+Wire Wire Line
+	6000 2200 6200 2200
+$Comp
+L Device:R_Small R?
+U 1 1 5CFF0FF8
+P 3250 2500
+F 0 "R?" V 3300 2300 50  0000 L CNN
+F 1 "22 Ohm" V 3300 2600 50  0000 L CNN
+F 2 "" H 3250 2500 50  0001 C CNN
+F 3 "~" H 3250 2500 50  0001 C CNN
+	1    3250 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 2500 3150 2500
+Wire Wire Line
+	3350 2500 3550 2500
+$Comp
+L Device:R_Small R?
+U 1 1 5CFF601B
+P 3250 2600
+F 0 "R?" V 3300 2400 50  0000 L CNN
+F 1 "22 Ohm" V 3300 2700 50  0000 L CNN
+F 2 "" H 3250 2600 50  0001 C CNN
+F 3 "~" H 3250 2600 50  0001 C CNN
+	1    3250 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 2600 3150 2600
+Wire Wire Line
+	3350 2600 3550 2600
+$Comp
+L Device:R_Small R?
+U 1 1 5CFF8A09
+P 3250 2700
+F 0 "R?" V 3300 2500 50  0000 L CNN
+F 1 "22 Ohm" V 3300 2800 50  0000 L CNN
+F 2 "" H 3250 2700 50  0001 C CNN
+F 3 "~" H 3250 2700 50  0001 C CNN
+	1    3250 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 2700 3150 2700
+Wire Wire Line
+	3350 2700 3550 2700
+$Comp
+L Device:R_Small R?
+U 1 1 5CFFB6E9
+P 3250 2800
+F 0 "R?" V 3300 2600 50  0000 L CNN
+F 1 "22 Ohm" V 3300 2900 50  0000 L CNN
+F 2 "" H 3250 2800 50  0001 C CNN
+F 3 "~" H 3250 2800 50  0001 C CNN
+	1    3250 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 2800 3150 2800
+Wire Wire Line
+	3350 2800 3550 2800
+$Comp
+L Device:R_Small R?
+U 1 1 5CFFE6CE
+P 3250 2900
+F 0 "R?" V 3300 2700 50  0000 L CNN
+F 1 "22 Ohm" V 3300 3000 50  0000 L CNN
+F 2 "" H 3250 2900 50  0001 C CNN
+F 3 "~" H 3250 2900 50  0001 C CNN
+	1    3250 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 2900 3150 2900
+Wire Wire Line
+	3350 2900 3550 2900
+$Comp
+L Device:R_Small R?
+U 1 1 5D0019BF
+P 3250 3000
+F 0 "R?" V 3300 2800 50  0000 L CNN
+F 1 "22 Ohm" V 3300 3100 50  0000 L CNN
+F 2 "" H 3250 3000 50  0001 C CNN
+F 3 "~" H 3250 3000 50  0001 C CNN
+	1    3250 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 3000 3150 3000
+Wire Wire Line
+	3350 3000 3550 3000
+$Comp
+L Device:R_Small R?
+U 1 1 5D004FD7
+P 3250 3100
+F 0 "R?" V 3300 2900 50  0000 L CNN
+F 1 "22 Ohm" V 3300 3200 50  0000 L CNN
+F 2 "" H 3250 3100 50  0001 C CNN
+F 3 "~" H 3250 3100 50  0001 C CNN
+	1    3250 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 3100 3150 3100
+Wire Wire Line
+	3350 3100 3550 3100
+$Comp
+L Device:R_Small R?
+U 1 1 5D008915
+P 3250 3200
+F 0 "R?" V 3300 3000 50  0000 L CNN
+F 1 "22 Ohm" V 3300 3300 50  0000 L CNN
+F 2 "" H 3250 3200 50  0001 C CNN
+F 3 "~" H 3250 3200 50  0001 C CNN
+	1    3250 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 3200 3150 3200
+Wire Wire Line
+	3350 3200 3550 3200
+$Comp
+L Device:R_Small R?
+U 1 1 5D00C590
+P 3250 3300
+F 0 "R?" V 3300 3100 50  0000 L CNN
+F 1 "22 Ohm" V 3300 3400 50  0000 L CNN
+F 2 "" H 3250 3300 50  0001 C CNN
+F 3 "~" H 3250 3300 50  0001 C CNN
+	1    3250 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 3300 3150 3300
+Wire Wire Line
+	3350 3300 3550 3300
+$Comp
+L Device:R_Small R?
+U 1 1 5D010557
+P 3250 3400
+F 0 "R?" V 3300 3200 50  0000 L CNN
+F 1 "22 Ohm" V 3300 3500 50  0000 L CNN
+F 2 "" H 3250 3400 50  0001 C CNN
+F 3 "~" H 3250 3400 50  0001 C CNN
+	1    3250 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 3400 3150 3400
+Wire Wire Line
+	3350 3400 3550 3400
+$Comp
+L Device:R_Small R?
+U 1 1 5D014879
+P 3250 3500
+F 0 "R?" V 3300 3300 50  0000 L CNN
+F 1 "22 Ohm" V 3300 3600 50  0000 L CNN
+F 2 "" H 3250 3500 50  0001 C CNN
+F 3 "~" H 3250 3500 50  0001 C CNN
+	1    3250 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 3500 3150 3500
+Wire Wire Line
+	3350 3500 3550 3500
+$Comp
+L Device:R_Small R?
+U 1 1 5D018F05
+P 3250 3600
+F 0 "R?" V 3300 3400 50  0000 L CNN
+F 1 "22 Ohm" V 3300 3700 50  0000 L CNN
+F 2 "" H 3250 3600 50  0001 C CNN
+F 3 "~" H 3250 3600 50  0001 C CNN
+	1    3250 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 3600 3150 3600
+Wire Wire Line
+	3350 3600 3550 3600
+$Comp
+L Device:R_Small R?
+U 1 1 5D01DA6A
+P 3250 3800
+F 0 "R?" V 3300 3600 50  0000 L CNN
+F 1 "22 Ohm" V 3300 3900 50  0000 L CNN
+F 2 "" H 3250 3800 50  0001 C CNN
+F 3 "~" H 3250 3800 50  0001 C CNN
+	1    3250 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 3800 3150 3800
+Wire Wire Line
+	3350 3800 3550 3800
+$Comp
+L Device:R_Small R?
+U 1 1 5D022819
+P 3250 3900
+F 0 "R?" V 3300 3700 50  0000 L CNN
+F 1 "22 Ohm" V 3300 4000 50  0000 L CNN
+F 2 "" H 3250 3900 50  0001 C CNN
+F 3 "~" H 3250 3900 50  0001 C CNN
+	1    3250 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 3900 3150 3900
+Wire Wire Line
+	3350 3900 3550 3900
+$Comp
+L Device:R_Small R?
+U 1 1 5D027945
+P 3250 4000
+F 0 "R?" V 3300 3800 50  0000 L CNN
+F 1 "22 Ohm" V 3300 4100 50  0000 L CNN
+F 2 "" H 3250 4000 50  0001 C CNN
+F 3 "~" H 3250 4000 50  0001 C CNN
+	1    3250 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 4000 3150 4000
+Wire Wire Line
+	3350 4000 3550 4000
+$Comp
+L Device:R_Small R?
+U 1 1 5D02CE15
+P 3250 4100
+F 0 "R?" V 3300 3900 50  0000 L CNN
+F 1 "22 Ohm" V 3300 4200 50  0000 L CNN
+F 2 "" H 3250 4100 50  0001 C CNN
+F 3 "~" H 3250 4100 50  0001 C CNN
+	1    3250 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 4100 3150 4100
+Wire Wire Line
+	3350 4100 3550 4100
+$Comp
+L Device:R_Small R?
+U 1 1 5D0326B0
+P 3250 4200
+F 0 "R?" V 3300 4000 50  0000 L CNN
+F 1 "22 Ohm" V 3300 4300 50  0000 L CNN
+F 2 "" H 3250 4200 50  0001 C CNN
+F 3 "~" H 3250 4200 50  0001 C CNN
+	1    3250 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 4200 3150 4200
+Wire Wire Line
+	3350 4200 3550 4200
+$Comp
+L Device:R_Small R?
+U 1 1 5D0382F3
+P 3250 4300
+F 0 "R?" V 3300 4100 50  0000 L CNN
+F 1 "22 Ohm" V 3300 4400 50  0000 L CNN
+F 2 "" H 3250 4300 50  0001 C CNN
+F 3 "~" H 3250 4300 50  0001 C CNN
+	1    3250 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 4300 3150 4300
+Wire Wire Line
+	3350 4300 3550 4300
+$Comp
+L Device:R_Small R?
+U 1 1 5D03E311
+P 3250 4400
+F 0 "R?" V 3300 4200 50  0000 L CNN
+F 1 "22 Ohm" V 3300 4500 50  0000 L CNN
+F 2 "" H 3250 4400 50  0001 C CNN
+F 3 "~" H 3250 4400 50  0001 C CNN
+	1    3250 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 4400 3150 4400
+Wire Wire Line
+	3350 4400 3550 4400
+$Comp
+L Device:R_Small R?
+U 1 1 5D044B7A
+P 3250 4700
+F 0 "R?" V 3300 4500 50  0000 L CNN
+F 1 "22 Ohm" V 3300 4800 50  0000 L CNN
+F 2 "" H 3250 4700 50  0001 C CNN
+F 3 "~" H 3250 4700 50  0001 C CNN
+	1    3250 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 4700 3150 4700
+Wire Wire Line
+	3350 4700 3550 4700
+$Comp
+L Device:R_Small R?
+U 1 1 5D04B36D
+P 3250 4800
+F 0 "R?" V 3300 4600 50  0000 L CNN
+F 1 "22 Ohm" V 3300 4900 50  0000 L CNN
+F 2 "" H 3250 4800 50  0001 C CNN
+F 3 "~" H 3250 4800 50  0001 C CNN
+	1    3250 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 4800 3150 4800
+Wire Wire Line
+	3350 4800 3550 4800
+$Comp
+L Device:R_Small R?
+U 1 1 5D051F6C
+P 3250 4900
+F 0 "R?" V 3300 4700 50  0000 L CNN
+F 1 "22 Ohm" V 3300 5000 50  0000 L CNN
+F 2 "" H 3250 4900 50  0001 C CNN
+F 3 "~" H 3250 4900 50  0001 C CNN
+	1    3250 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 4900 3150 4900
+Wire Wire Line
+	3350 4900 3550 4900
+Wire Wire Line
+	3550 2200 3400 2200
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 5D0602EC
+P 3050 2200
+F 0 "JP?" H 3050 2412 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 3050 2321 50  0000 C CNN
+F 2 "" H 3050 2200 50  0001 C CNN
+F 3 "~" H 3050 2200 50  0001 C CNN
+	1    3050 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D068649
+P 2450 2200
+F 0 "R?" V 2500 2000 50  0000 L CNN
+F 1 "10K" V 2500 2300 50  0000 L CNN
+F 2 "" H 2450 2200 50  0001 C CNN
+F 3 "~" H 2450 2200 50  0001 C CNN
+	1    2450 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 2200 2350 2200
+Wire Wire Line
+	2550 2200 2950 2200
+Text GLabel 2150 2200 0    50   Input ~ 0
+VIO
+$Comp
+L Device:R_Small R?
+U 1 1 5D08DDB7
+P 2450 2300
+F 0 "R?" V 2500 2100 50  0000 L CNN
+F 1 "10K" V 2500 2400 50  0000 L CNN
+F 2 "" H 2450 2300 50  0001 C CNN
+F 3 "~" H 2450 2300 50  0001 C CNN
+	1    2450 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 2300 2350 2300
+Text GLabel 2150 2300 0    50   Input ~ 0
+VIO
+Wire Wire Line
+	2550 2300 2800 2300
+Wire Wire Line
+	2150 2400 3550 2400
+Text GLabel 2150 2400 0    50   Input ~ 0
+PMODE_2
+Wire Wire Line
+	3400 2200 3400 1800
+Connection ~ 3400 2200
+Wire Wire Line
+	3400 2200 3150 2200
+Text GLabel 3400 1800 1    50   Input ~ 0
+PMODE_0
+Wire Wire Line
+	2800 2300 2800 1800
+Connection ~ 2800 2300
+Wire Wire Line
+	2800 2300 3550 2300
+Text GLabel 2800 1800 1    50   Input ~ 0
+PMODE_1
+Wire Wire Line
+	3550 3700 2300 3700
+Text GLabel 2300 3700 0    50   Input ~ 0
+GPIO45
+Text GLabel 2450 4500 0    50   Input ~ 0
+SPI-SCK_UART-RTS
+Wire Wire Line
+	3550 4600 1850 4600
+Wire Wire Line
+	1850 4600 1850 5200
+Wire Wire Line
+	1850 5200 1650 5200
+Wire Wire Line
+	1850 5200 1850 5500
+Connection ~ 1850 5200
+Text GLabel 1650 5200 0    50   Input ~ 0
+SPI-SSN_UART-CTS
+$Comp
+L Device:R_Small R?
+U 1 1 5D14BC8B
+P 1850 5600
+F 0 "R?" H 1909 5646 50  0000 L CNN
+F 1 "332 Ohm" H 1909 5555 50  0000 L CNN
+F 2 "" H 1850 5600 50  0001 C CNN
+F 3 "~" H 1850 5600 50  0001 C CNN
+	1    1850 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 5700 1850 5900
+$Comp
+L Device:LED D?
+U 1 1 5D154B9F
+P 1850 6050
+F 0 "D?" V 1795 6128 50  0000 L CNN
+F 1 "LED_BLUE" V 1886 6128 50  0000 L CNN
+F 2 "" H 1850 6050 50  0001 C CNN
+F 3 "~" H 1850 6050 50  0001 C CNN
+	1    1850 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 6200 1850 6300
+Text GLabel 1850 6300 3    50   Input ~ 0
+V3P3
+Text Notes 650  3700 0    50   ~ 0
+Pushbutton. Check misc page :)
+$Comp
+L Device:R_Small R?
+U 1 1 5CF48D36
+P 3250 4500
+F 0 "R?" V 3300 4300 50  0000 L CNN
+F 1 "22 Ohm" V 3300 4600 50  0000 L CNN
+F 2 "" H 3250 4500 50  0001 C CNN
+F 3 "~" H 3250 4500 50  0001 C CNN
+	1    3250 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 4500 3150 4500
+Wire Wire Line
+	3350 4500 3550 4500
+Text GLabel 3550 5000 0    50   Input ~ 0
+I2C-GPIO58_SCL
+Text GLabel 3550 5100 0    50   Input ~ 0
+I2C-GPIO58_SDA
+$EndSCHEMATC
